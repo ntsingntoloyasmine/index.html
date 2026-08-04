@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon devoir de Développement Frontend</title>
+
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        nav {
+            background-color: #0056b3;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            background-color: white;
+            margin-top: 20px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 400px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        ul {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: white;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            background-color: white;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Bienvenue sur mon site web</h1>
+
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Présentation</a>
+        <a href="#">Galerie</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Présentation</h2>
+        <p>
+            Cette page a été réalisée dans le cadre du devoir de rattrapage en Développement Frontend.
+            Elle présente les principaux éléments HTML et CSS demandés.
+        </p>
+    </section>
+
+    <img src="https://picsum.photos/400/250" alt="Image de démonstration">
+
+    <h2>Liste des technologies</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>GitHub</li>
+        <li>Développement Web</li>
+    </ul>
+
+    <h2>Tableau</h2>
+
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Âge</th>
+            <th>Ville</th>
+        </tr>
+
+        <tr>
+            <td>Alice</td>
+            <td>20</td>
+            <td>Libreville</td>
+        </tr>
+
+        <tr>
+            <td>Jean</td>
+            <td>22</td>
+            <td>Port-Gentil</td>
+        </tr>
+
+        <tr>
+            <td>Sarah</td>
+            <td>19</td>
+            <td>Franceville</td>
+        </tr>
+    </table>
+
+    <h2>Formulaire</h2>
+
+    <form>
+
+        <label>Nom</label><br>
+        <input type="text" placeholder="Entrez votre nom">
+
+        <label>E-mail</label><br>
+        <input type="email" placeholder="Entrez votre e-mail">
+
+        <label>Téléphone</label><br>
+        <input type="tel" placeholder="Entrez votre numéro">
+
+        <button type="submit">Envoyer</button>
+
+    </form>
+
+</body>
+</html>
+
+<h1>Bienvenue sur mon site</h1>
+nav {
+    background-color: #1e3a8a;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 20px;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #1e3a8a;
+    border-radius: 5px;
+}
+<section>
+    <h2>Présentation</h2>
+
+    <p>
+        Je m'appelle NTSING NTOLO Yasmine. Je suis étudiante en Mathématiques, Physique et Informatique (MPI) à l'Université Numérique du Gabon. Cette page web a été réalisée dans le cadre de mon devoir de rattrapage en Développement Frontend afin de mettre en pratique les notions de HTML et de CSS.
+    </p>
+</section>
+<img src="image.jpg" alt="Image">
+<ul>
+
+<li>HTML</li>
+
+<li>CSS</li>
+
+<li>JavaScript</li>
+
+<li>GitHub</li>
+
+<li>Développement Web</li>
+
+</ul>
+<table>
+    <tr>
+        <th>Nom</th>
+        <th>Filière</th>
+        <th>Université</th>
+    </tr>
+
+    <tr>
+        <td>NTSING NTOLO Yasmine</td>
+        <td>MPI</td>
+        <td>Université Numérique du Gabon</td>
+    </tr>
+
+    <tr>
+        <td>Sarah Moussavou</td>
+        <td>Informatique</td>
+        <td>Université Numérique du Gabon</td>
+    </tr>
+
+    <tr>
+        <td>Jean Obiang</td>
+        <td>Réseaux</td>
+        <td>Université Numérique du Gabon</td>
+    </tr>
+</table>
+<form>
+
+    <label for="nom">Nom :</label><br>
+    <input type="text" id="nom" name="nom" value="NTSING NTOLO Yasmine"><br><br>
+
+    <label for="email">E-mail :</label><br>
+    <input type="email" id="email" name="email" value="ntsingyasmine@gmail.com"><br><br>
+
+    <label for="telephone">Téléphone :</label><br>
+    <input type="tel" id="telephone" name="telephone" value="062423951"><br><br>
+
+    <button type="submit">Envoyer</button>
+
+</form>
+body {
+    background-color: #faf8f2;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #444;
+    margin: 25px;
+    padding: 20px;
+}
+font-family:Arial;
+color:blue;
+background-color:green;
+margin:20px;
+padding:15px;
+border:2px solid black;
+border-radius:10px;
+a:hover{
+
+color:red;
+
+}
+img{
+
+max-width:400px;
+
+}
